@@ -9,6 +9,12 @@ class HomeController extends Controller
     
     public function index($request, $response)
     {
+    
+        /**
+         * NOTE THAT THE AMOUNT OF CSS EFFECT THE RENDER TIME NEEDS TO BE INLINE CSS.
+         *
+         *
+         */
         
         echo "fecth file <br>";
         $testing = $this->view->fetch('email/contact.twig', array(
